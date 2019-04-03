@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/arashzolfaghari/.nvm/versions/node/v8.0.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js start
+
+PATH: 
+  /Users/arashzolfaghari/.nvm/versions/node/v8.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  8.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/arashzolfaghari/sites/faveupapi/package.json: Unexpected string in JSON at position 167
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "faveupapi",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+      "start":"node ." 
+   },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/arashz/faveupapi.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/arashz/faveupapi/issues"
+    },
+    "homepage": "https://github.com/arashz/faveupapi#readme",
+    "dependencies": {
+      "express": "^4.16.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
