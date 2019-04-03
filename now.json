@@ -1,7 +1,7 @@
 {
   "name": "express-react-now",
   "version": 2,
-  "public": false,
+  "public": true,
   "builds": [
     {
       "src": "frontend/package.json",
