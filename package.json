@@ -1,0 +1,16 @@
+{
+  "name": "express-react-now",
+  "version": "1.0.0",
+  "description": "Simple express react deployable to zeit now",
+  "scripts": {
+    "frontend": "cd frontend && yarn start",
+    "server": "cd backend && nodemon .",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn frontend\""
+  },
+  "author": "Arash Zolfaghari",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.10"
+  }
+}
