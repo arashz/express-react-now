@@ -1,13 +1,22 @@
-# Simple React Express project
-## Ready to be deployed to zeit now
+# React Express to Zeit Now
 
-To start the project locally:
+Small project to start you off on a simple react frontend and a restful express api deployable to Zeit Now service
 
-npm install
+## Installation
+
+For local development
+
+```bash
+yarn install
 yarn start
 
-To start on zeit now:
+```
 
+## Zeit Now
+
+For to deploy simply type
+
+```bash
 now
-
+```
 
