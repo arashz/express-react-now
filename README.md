@@ -14,7 +14,7 @@ yarn start
 
 ## Zeit Now
 
-For to deploy simply type
+To deploy simply type
 
 ```bash
 now
